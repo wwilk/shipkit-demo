@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+}
+
+allprojects {
+
+    repositories {
+        jcenter()
+    }
+
+    group = "org.shipkit.demo"
+}
