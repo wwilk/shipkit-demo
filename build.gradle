@@ -13,3 +13,5 @@ allprojects {
 
     group = "org.shipkit.demo"
 }
+
+version = '0.0.2'
