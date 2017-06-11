@@ -5,4 +5,9 @@ public class UserServiceImpl implements UserService {
     public void persist(String username) {
         System.out.println("persisted = " + username);
     }
+
+    @Override
+    public String findByName(String name) {
+        return name;
+    }
 }
