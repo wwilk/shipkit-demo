@@ -1,7 +1,7 @@
 //This file was created automatically and is intended to be checked-in.
 shipkit {
    gitHub.repository = "wwilk/shipkit-demo"
-   gitHub.readOnlyAuthToken = "e7fe8fcfd6ffedac384c8c4c71b2a48e646ed1ab"
+   gitHub.readOnlyAuthToken = "c89ee38ad974f22a4d5fd9e9ce41cfe2ece668c3"
    gitHub.writeAuthUser = "shipkit"
 }
 
@@ -9,8 +9,8 @@ allprojects {
    plugins.withId("org.shipkit.bintray") {
        bintray {
            pkg {
-               repo = 'examples'
-               user = 'szczepiq'
+               repo = 'shipkit-demo'
+               user = 'wwilk'
                userOrg = 'shipkit'
                name = 'basic'
                licenses = ['MIT']
