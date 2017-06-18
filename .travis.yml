@@ -23,4 +23,4 @@ script:
 
 #check release criteria and make release if criteria are met!
 after_success:
-  - ./gradlew assertReleaseNeeded && ./gradlew ciReleasePrepare && ./gradlew performRelease -Pskipkit.dryRun=false
+  - ./gradlew assertReleaseNeeded && ./gradlew ciReleasePrepare && ./gradlew performRelease -Pshipkit.dryRun=false
