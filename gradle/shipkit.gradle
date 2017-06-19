@@ -1,7 +1,7 @@
 //This file was created automatically and is intended to be checked-in.
 shipkit {
    gitHub.repository = "wwilk/shipkit-demo"
-   gitHub.readOnlyAuthToken = "76826c9ec886612f504d12fd4268b16721c4f85d"
+   gitHub.readOnlyAuthToken = "c89ee38ad974f22a4d5fd9e9ce41cfe2ece668c3"
    gitHub.writeAuthUser = "shipkit-org"
 }
 
